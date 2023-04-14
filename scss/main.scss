@@ -1,0 +1,175 @@
+@import "~bootstrap/scss/mixins";
+
+
+body {
+  // padding-top: 5rem;
+	direction: rtl;
+	text-align: right !important;
+	height: 1200px;
+}
+a{
+	// transition: all 300ms ease-in-out;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.page-title{
+	color: #003566;
+	margin-bottom: 30px;
+}
+
+@import "_login.scss";
+@import "_menu.scss";
+@import "_forms.scss";
+@import "_ntf.scss";
+@import "_store.scss";
+@import "_order.scss";
+@import "_modal.scss";
+
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 15px 10px;
+}
+
+.btn-main{
+	background: #0076E3;
+	color: #ffffff;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	height: 50px;
+	padding: 0 50px;
+	font-size: 18px;
+	margin-left: 20px;
+
+}
+.table-card{
+	padding: 20px 0;
+	background: #ffffff;
+	border-radius: 10px;
+	border: 1px solid #E9ECEF;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+	.table-title{
+		padding: 0 20px;
+	}
+	.dataTables_info{
+		display: none;
+	}
+	.dataTables_paginate {
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+
+
+		span .paginate_button{
+			background: #E9ECEF;
+			border-radius: 50%;
+			margin: 0 5px;
+		}
+	}
+}
+
+table.dataTable thead th, table.dataTable thead td{
+	border-bottom: 1px solid #E9ECEF;
+
+}
+table.dataTable.no-footer {
+	border-bottom: 1px solid #E9ECEF;
+}
+table.dataTable thead th, table.dataTable thead td {
+	padding: 15px 18px;
+}
+table.dataTable thead {
+	background: #F8F9FA;
+	color: #6C757D;
+}
+
+
+
+// Navbar
+
+.navbar-right{
+	padding-right: 30px;
+	float: right;
+}
+.navbar-left{
+	float: left;
+}
+
+.user-avatar{
+	cursor: pointer;
+	
+	position: relative;
+	display: inline-block;
+	line-height: 60px;
+
+	&:hover{
+		.user-menu{
+			display: block;
+			li{
+				line-height: 24px;
+			}
+		}
+	}
+
+}
+
+.mail-icon{
+	cursor: pointer;
+}
+.user-menu{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	list-style: none;
+	background: #fff;
+	left: 0;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	border: 1px solid #CED4DA;
+	border-radius: 10px;
+	z-index: 999;
+	padding:15px 0;
+	top:58px;
+	li{
+		padding: 10px  20px;
+		a{
+			color: #000814;
+
+		}
+		&:hover{
+			cursor: pointer;
+			background: #003566;
+			a{
+				color: #ffffff;
+				text-decoration: none;
+
+			}
+		}
+	}
+
+}
+
+
+
+.user-icons{
+	display: inline-block;
+	.user-icon{
+		margin-left: 30px;
+		i{
+			font-size: 24px;
+			color: #727272;
+		}
+		&.user-lang{
+			i{
+				margin-left: 5px;
+
+			}
+			span{
+			position: relative;
+			top: -2px;
+			}
+		}
+	}
+}

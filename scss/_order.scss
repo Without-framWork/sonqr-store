@@ -1,0 +1,25 @@
+.order-status{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	background: #9B9B9B;
+	padding: 0 15px;
+	font-size: 12px;
+	border-radius: 5px;
+	&.status-01{
+		background: #9B9B9B;
+
+	}
+	&.status-02{
+		background: #FFE0E3;
+
+	}
+	&.status-03{
+		background: #FFEAD8;
+
+	}
+	&.status-04{
+		background: #EAEFE9;
+
+	}
+}	

@@ -1,0 +1,39 @@
+{% extends "templates/layouts/app.html" %}
+
+{% block content %}
+		<div class="login-card">
+				<div class="row">
+
+						<div class="col-md-7">
+								<div class="card-right">
+										<form class="login-form">
+												<h3>أهلا بيك في سنقر 😍</h3>
+												<div class="form-group">
+														<label for="username">اسم المستخدم</label>
+														<input type="email" class="form-control" id="username" aria-describedby="emailHelp">
+												</div>
+												<div class="form-group">
+														<label for="password">كلمة المرور</label>
+														<input type="password" class="form-control" id="password">
+												</div>
+
+												<button type="submit" class="btn btn-primary btn-block">تسجيل الدخول</button>
+												<div class="form-group form-check">
+														<input type="checkbox" class="form-check-input" id="exampleCheck1">
+														<label class="form-check-label" for="exampleCheck1">تذكرني</label>
+														<a class="btn-link" href="#">نسيت كلمة السر ؟
+														</a>
+												</div>
+										</form>
+								</div>
+						</div>
+
+						<div class="col-md-5">
+								<img src="assets/images/bg.png" alt="">
+						</div>
+						
+				</div>
+		</div>
+		<div></div>
+
+{% endblock %}

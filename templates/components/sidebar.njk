@@ -1,0 +1,36 @@
+<div class="main-sidebar">
+	<form class="store-status">
+
+		<p>حالتك الآن</p>
+		<div class="status-form">
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="inlineRadioOptions" value="option1">
+				<label class="form-check-label">متاح</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="inlineRadioOptions" value="option2">
+				<label class="form-check-label" ">مشغول</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="inlineRadioOptions" value="option3">
+				<label class="form-check-label">مغلق</label>
+			</div>
+		</div>
+
+	</form>
+	<div class="store-points">
+		<span class="point-title">عدد نقاطك الآن</span>
+		<span class="point-count">1450 نقطة</span>
+	</div>
+	<ul class="main-menu">
+		<li class="{% if page_title == 'home' %} active{% endif %}"><a href="#">الرئيسية</a></li>
+		<li class="{% if page_title == 'products' %} active{% endif %}"><a href="/products.html" ><i class="fas fa-box-open"></i>المنتجات</a></li>
+		<li class="{% if page_title == 'categories' %} active{% endif %}"><a href="/categories.html"><i class="fas fa-boxes"></i>الأصناف</a></li>
+		<li class="{% if page_title == 'offers' %} active{% endif %}"><a href="/offers.html"><i class="fas fa-tag"></i>العروض</a></li>
+		<li class="{% if page_title == 'current-orders' %} active{% endif %}"><a href="/current-orders.html"><i class="fas fa-cash-register"></i>العمليات الحالية</a></li>
+		<li class="{% if page_title == 'orders' %} active{% endif %}"><a href="/orders.html"><i class="fas fa-file-alt"></i>العمليات السابقة</a></li>
+		<li class="{% if page_title == 'settings' %} active{% endif %}"><a href="/settings.html"><i class="fas fa-cog"></i>الإعدادات</a></li>
+		<li ><a href="/support.html"><i class="fas fa-phone"></i>الدعم</a></li>
+		<li class="{% if page_title == 'logout' %} active{% endif %}"><a href="/logout.html"><i class="fas fa-sign-out-alt"></i>تسجيل الخروج</a></li>
+	</ul>
+</div>

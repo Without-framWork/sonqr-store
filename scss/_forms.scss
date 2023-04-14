@@ -1,0 +1,102 @@
+.common-form{
+	max-width: 560px;
+	h2{
+		color: #003566;
+		margin-bottom: 30px;
+	}
+	.form-group{
+		label{
+			font-size: 18px;
+			font-weight: 600;
+		}
+	}
+	input.form-control ,	select.form-control {
+		height: 46px;
+
+		background: #F8F9FA;
+	}
+	textarea.form-control  {
+		height: 140px;
+		background: #F8F9FA;
+	}
+	.btn-primary{
+		width: 100%;
+		height: 50px;
+		background: #003566;
+		border-color:  #003566;
+		margin-top: 10px;
+		
+	}
+}
+
+
+.password-group{
+	position: relative;
+	.show-password{
+		position: absolute;
+		// width: 20px;
+		// height: 20px;
+		// background:gray;
+		border-radius: 20px;
+		left: 15px;
+		top:12px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+
+
+}
+
+
+
+.prepare-form{
+	label{
+		font-size: 18px;
+    font-weight: 600;
+	}
+	.form-group{
+		label{
+			margin-left:15px;
+			font-weight: 400;
+			float: right;
+	
+		}
+		input{
+			// overflow: hidden;
+			// display: inline-block;
+			// width: 100%;
+		}
+	}
+}
+
+.form-check-inline {
+
+	margin-right: 0;
+	margin-left: 0.75rem;
+	.form-check-input{
+		margin-right: 0;
+		margin-left: 0.3125rem;
+	
+	}
+
+}
+
+.form-check{
+	.form-check-input{
+		// position: relative;
+		// margin-left:0
+
+	}
+}
+
+
+.time-form{
+	.form-check{
+		
+	}
+	.form-check-label{
+		font-size: 20px;
+	}
+}
